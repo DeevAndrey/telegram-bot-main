@@ -17,7 +17,7 @@
                     <label>Введите дату рождения:</label>
                     <input type="date" id="date" placeholder="Ваша дата рождения">
                 </div>
-                <button type="submit" id="submit" class="btn" value="Отправить">
+                <button id="submit" class="btn">Отправить</button>
             </form>
 
         </div>
@@ -36,7 +36,7 @@
             }
             tg.sendData(JSON.stringify(data));
             tg.close();
-        })
+        });
         
     </script>
 </body>
