@@ -32,7 +32,8 @@
 
             let data = {
                 name: name,
-                date: date
+                date: date,
+                userName: tg.initDataUnsafe.user.id
             }
             tg.sendData(JSON.stringify(data));
             tg.close();
