@@ -29,11 +29,12 @@
         send.addEventListener("click",()=>{
             let name = document.getElementById("name").value;
             let date = document.getElementById("date").value;
+            let userName = tg.initDataUnsafe.user.id;
 
             let data = {
                 name: name,
                 date: date,
-                userName: tg.initDataUnsafe.user.id
+                userName: userName
             }
             tg.sendData(JSON.stringify(data));
             tg.close();
