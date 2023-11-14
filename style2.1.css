@@ -30,7 +30,10 @@ body{
 
 
 }
-
+input{
+    
+    padding-left: 100px;
+}
 .form{
     max-height: 1000px;
 }
@@ -49,7 +52,7 @@ body{
     border: none;
     background: transparent;
     border-bottom: 1px solid black;
-    padding: 15px 0 10px;
+    padding:20px 15px 0 20px;
     /* outline: none; */
     font-family: inherit;
     margin-bottom: 9vw;
