@@ -24,7 +24,8 @@ label{
     font-weight: bold;
     color: #86898f;
 }
-/* input{
+input{
+    appearance: none;
     position: relative;
     font-size: 3vh;
     width: 100%;
@@ -38,7 +39,7 @@ label{
     font-family: inherit;
 
     
-} */
+}
 .btn{
     width: 100%;
     background: black;
