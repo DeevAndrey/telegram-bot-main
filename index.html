@@ -8,7 +8,6 @@
 <body>    
 
     <form>
-        <p>Регистрация</p>
         <div>
             <label for="team">Выберите отдел :</label>
             <select name=" " class="select-1" id="team">
@@ -28,7 +27,7 @@
         </div>
 
 
-        <button id="submit" class="btn">Отправить</button>
+        <button id="submit" class="btn">Зарегистрироваться</button>
     </form>
 
 
@@ -37,11 +36,13 @@
         let tg = window.Telegram.WebApp;
         let send = document.getElementById("submit");
         send.addEventListener("click",()=>{
+            let team = document.getElementById("team").value;
             let name = document.getElementById("name").value;
             let date = document.getElementById("date").value;
             let userName = '';
 
             let data = {
+                team: team,
                 name: name,
                 date: date,
                 userName: null

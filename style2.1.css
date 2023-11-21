@@ -3,8 +3,8 @@ body{
     background-color: #f1f1f1;
     color:#0f141e;
     display: flex;
-    width: 97vw;
-    height: 97vh;
+    width: 95vw;
+    height: 95vh;
     font-size:2.8vw;
     font-weight: 300;
     font-family: 'Roboto', sans-serif;
@@ -16,6 +16,7 @@ p{
     justify-content: center;
 }
 form{
+    margin-left: 2vw;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -38,7 +39,7 @@ input{
     padding: 15px 0 10px 20px;
     /* outline: none; */
     font-family: inherit;
-    margin-bottom: 8vw;
+
     
 }
 .btn{
@@ -83,7 +84,7 @@ a:active{
 div{
     display: flex;
     flex-direction: column;
-    height: 30vh;
+    height: 27vh;
     width: 100%;
     justify-content: space-around;
 }
