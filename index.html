@@ -6,22 +6,32 @@
     <link href="style2.1.css" rel="stylesheet"/>
 </head>
 <body>    
-    <div class="container">
-        <div class="info">
-            <form>
-                <div class="form-group">
-                    <label for="name">Введите фамилию и имя :</label>
-                    <input type="text" placeholder="Фамилия/имя" id="name">
-                </div>
-                <div class="form-group">
-                    <label>Введите дату рождения:</label>
-                    <input type="date" id="date" placeholder="Ваша дата рождения">
-                </div>
-                <button id="submit" class="btn">Отправить</button>
-            </form>
 
+    <form>
+        <p>Регистрация</p>
+        <div>
+            <label for="team">Выберите отдел :</label>
+            <select name=" " class="select-1" id="team">
+                <option value="DevAI">Develops</option>
+                <option value="SupAI">Support</option>
+            </select>
         </div>
-    </div>
+
+        <div>
+            <label for="name">Введите фамилию и имя :</label>
+            <input type="text" placeholder="Фамилия/имя" id="name">    
+        </div>
+
+        <div>
+            <label>Введите дату рождения:</label>
+            <input type="date" id="date" placeholder="Ваша дата рождения">
+        </div>
+
+
+        <button id="submit" class="btn">Отправить</button>
+    </form>
+
+
     <script src="https://telegram.org/js/telegram-web-app.js"></script>
     <script>
         let tg = window.Telegram.WebApp;
